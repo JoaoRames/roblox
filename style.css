@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
+  /* Altera a fonte principal para Gotham */
+  font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background-color: #f4f4f4;
   color: #333;
@@ -25,6 +26,21 @@ main {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+/* Estilização para o container e a imagem */
+.banner-container {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.imagem-inicial {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 .interacao {
   flex: 1;
   margin-left: 20px;
@@ -36,6 +52,7 @@ main {
 }
 
 button {
+  font-family: inherit; /* Faz o botão herdar a fonte Gotham do body */
   display: block;
   width: 100%;
   padding: 10px;
